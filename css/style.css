@@ -1,0 +1,88 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
+/* caja contenedor */
+/* elemento padres */
+
+.principal{
+/*     border: 3px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+ /*    flex-direction: row-reverse; */
+   /*  flex-direction: column; */
+   /* flex-wrap: nowrap; */
+   /*  flex-direction: column-reverse; */
+    flex-wrap: wrap;
+   /*  flex-wrap: wrap-reverse; */
+   /*  justify-content: flex-start; */
+   /* justify-content: center; */
+/*    justify-content: flex-end; */
+/*     justify-content: space-between; */
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+/* .imagen{
+    text-align: center;
+    margin-top: 35px;
+} */
+
+.imagen{
+    background-image: url("../img/principal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+/*     width: 100vw; */
+}
+
+.secciones{
+   /*  border: 2px solid green; */
+    margin-bottom: 10px;
+}
+
+p{
+    width: 400px;
+}
+
+/* .secciones :hover{
+    width: 120%;
+    z-index: 1;
+} */
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+a{
+    background: red;
+    color: #fff;
+    font-size: 20px;
+}
+
+a:hover{
+    background: #fff;
+    color: red;
+}
+
+.footer{
+    display: flex;
+    margin-top: 80px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    width: 500px;
+}
